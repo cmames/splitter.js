@@ -1,4 +1,4 @@
-// just crate a div with a class name splitH or splitV
+// just create a div with a class name splitH or splitV
 // in that div add :
 // - your first div
 // - an empty div with a class name separator
