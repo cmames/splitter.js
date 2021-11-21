@@ -14,7 +14,6 @@
       let infop,infon; 
       let horizontal=(element.parentNode.className === "splitH");
       let vertical=(element.parentNode.className === "splitV");
-
       element.style.backgroundColor= '#A0A0A0';
       element.style.width="100%";
       element.style.height="100%";
@@ -30,10 +29,7 @@
       element.parentNode.style.height="100%";
       previous.style.position="relative";
       next.style.position="relative";
-
-
-      if (horizontal)
-      {
+      if (horizontal) {
         cursor = 'col-resize';
         previous.style.minWidth="50px";
         next.style.minWidth="50px";
@@ -44,8 +40,7 @@
         element.style.backgroundImage="url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='5' height='40'><path d='M2 0 V40' fill='none' stroke='black'/></svg>\")";
         element.parentNode.style.flexDirection="row";
       }
-      if (vertical)
-      {
+      if (vertical) {
         cursor = 'row-resize';
         previous.style.minHeight="50px";
         next.style.minHeight="50px";
@@ -57,12 +52,10 @@
         element.parentNode.style.flexDirection="column";
       }
       element.style.cursor=cursor;
-
       window.addEventListener("resize", () => {
         next.style.width=window.innerWidth-previous.offsetWidth-element.offsetWidth+"px";
         next.style.height=window.innerHeight-previous.offsetHeight-element.offsetHeight+"px";
       });
-
       element.addEventListener("mousedown", (e) => {
         md = {
           clientX: e.clientX,
@@ -82,16 +75,14 @@
         infon.style.padding="5px";
         infop.textContent=previous.offsetWidth+"x"+previous.offsetHeight;
         infon.textContent=next.offsetWidth+"x"+next.offsetHeight;
-        if (horizontal) 
-        {
+        if (horizontal) {
           infop.style.left="auto";
           infop.style.right="0";
           infon.style.left="0";
           infop.style.top="0";
           infon.style.top="0";
         }
-        if (vertical) 
-        {
+        if (vertical) {
           infop.style.left="auto";
           infop.style.right="0";
           infop.style.top="auto";
