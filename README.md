@@ -9,8 +9,8 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/cmames/splitter.js)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/cmames/splitter.js)
 
-![Code Grade](https://www.code-inspector.com/project/18173/score/svg)
-![Code Grade](https://www.code-inspector.com/project/18173/status/svg)
+![Code Grade](https://api.codiga.io/project/29801/score/svg)
+![Code Grade](https://api.codiga.io/project/29801/status/svg)
 
 
 :uk: a DIV splitter in javascript
