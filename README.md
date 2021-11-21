@@ -13,8 +13,8 @@
 ![Code Grade](https://api.codiga.io/project/29801/status/svg)
 
 
-:uk: a DIV splitter in javascript
-> :fr: un splitter de DIV en javascript
+:uk: a draggable splitter in javascript
+> :fr: un splitter draggable en javascript
 
 <a href="https://github.com/cmames/splitter.js">https://github.com/cmames/splitter.js</a>
 
