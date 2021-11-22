@@ -1,4 +1,7 @@
-function dragElement(element) {
+// zramit by C. Mames is licensed under the GNU General Public License v3.0
+// https://github.com/cmames/zramit
+
+ function dragElement(element) {
   const previous = element.previousElementSibling;
   const next = element.nextElementSibling;
   let md, cursor;
