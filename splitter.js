@@ -1,5 +1,5 @@
-// zramit by C. Mames is licensed under the GNU General Public License v3.0
-// https://github.com/cmames/zramit
+// splitter.js by C. Mames is licensed under the GNU General Public License v3.0 
+// https://github.com/cmames/splitter.js 
 
  function dragElement(element) {
   const previous = element.previousElementSibling;
