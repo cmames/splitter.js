@@ -1,6 +1,5 @@
 # Splitter.js
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=cmames&repo=splitter.js&theme=aura)
 
 [![GitHub license](https://img.shields.io/github/license/cmames/splitter.js)](https://github.com/cmames/splitter.js/blob/main/LICENSE)
 ![GitHub last commit](https://img.shields.io/github/last-commit/cmames/splitter.js)
